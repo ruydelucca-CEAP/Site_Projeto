@@ -43,7 +43,11 @@ document.addEventListener('DOMContentLoaded', () => {
             texto: "Netuno é o oitavo e último planeta do Sistema Solar, sendo um gigante de gelo caracterizado por sua cor azulada, atmosfera de hidrogênio, hélio e metano, ventos super-rápidos e tempestades violentas. É o quarto maior planeta em tamanho, embora mais massivo que Urano, e sua órbita em torno do Sol leva aproximadamente 164 anos terrestres.",
             corDestaque: '#005effff' // Cor do texto/borda para Vênus
         },
-        
+        'terra': {
+            nome: "TERRA",
+            texto: "A Terra é o terceiro planeta do Sistema Solar, o quinto maior, rochoso (ou telúrico) e o único conhecido por abrigar vida. Sua superfície é composta por cerca de 70% de água, o que lhe rende o apelido de 'planeta azul', e sua estrutura interna é dividida em crosta, manto e núcleo. ",
+            corDestaque: '#005effff' // Cor do texto/borda para Vênus
+        },
         // ** COPIE E COLE PARA OS OUTROS PLANETAS (mude 'terra', 'marte', etc.) **
         // 'terra': { /* ... */ }, 
     };
