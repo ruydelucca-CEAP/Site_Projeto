@@ -61,7 +61,7 @@ body {
 /* Estilo Básico do Botão Planeta */
 .planeta-btn {
     background: none;
-    border: 3px solid #ffcc00; /* Borda de destaque */
+    border: 3px solid #4400ff; /* Borda de destaque */
     border-radius: 50%; /* Faz o botão parecer redondo */
     width: 150px;
     height: 150px;

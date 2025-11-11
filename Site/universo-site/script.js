@@ -10,14 +10,40 @@ document.addEventListener('DOMContentLoaded', () => {
     const planetasData = {
         'mercurio': {
             nome: "MERCÚRIO",
-            texto: "**MERCÚRIO** é o planeta mais próximo do Sol. Na astrologia, ele rege a **Comunicação**, o **Raciocínio** e a **Agilidade Mental**. É a forma como você aprende e se expressa. \n\n**Curiosidades:** Apesar de próximo do Sol, não é o mais quente. Seu dia é mais longo que seu ano.",
+            texto: "MERCÚRIO é o planeta mais próximo do Sol. Na astrologia, ele rege a Comunicação, o Raciocínio e a Agilidade Mental. É a forma como você aprende e se expressa. \n\nCuriosidades: Apesar de próximo do Sol, não é o mais quente. Seu dia é mais longo que seu ano.",
             corDestaque: '#e5e5e5' // Cor do texto/borda para Mercúrio
         },
         'venus': {
             nome: "VÊNUS",
-            texto: "**VÊNUS** é o planeta que rege o **Amor**, a **Beleza**, os **Valores Pessoais** e a **Harmonia**. Ele define a maneira como nos relacionamos, damos e recebemos afeto. \n\n**Curiosidades:** É o planeta mais quente e tem uma rotação retrógrada (gira ao contrário dos outros).",
+            texto: "VÊNUS é o planeta que rege o Amor, a Beleza, os Valores Pessoais e a Harmonia. Ele define a maneira como nos relacionamos, damos e recebemos afeto. \n\nCuriosidades: É o planeta mais quente e tem uma rotação retrógrada (gira ao contrário dos outros).",
             corDestaque: '#ffcc00' // Cor do texto/borda para Vênus
         },
+        'marte': {
+            nome: "MARTE",
+            texto: "Marte é o quarto planeta do Sistema Solar, conhecido como o 'Planeta Vermelho' devido ao óxido de ferro em seu solo. É um planeta rochoso com cerca de metade do tamanho da Terra, uma atmosfera fina composta principalmente por dióxido de carbono e duas pequenas luas, Fobos e Deimos. Possui características semelhantes à Terra, como estações, calotas polares, vulcões e cânions.",
+            corDestaque: '#ff4000ff' // Cor do texto/borda para Vênus
+        },
+        'jupiter': {
+            nome: "JÚPITER",
+            texto: "Júpiter é o maior planeta do Sistema Solar, um gigante gasoso formado principalmente por hidrogênio e hélio, e o quinto planeta a partir do Sol. Ele não tem superfície sólida e é conhecido por sua atmosfera com faixas de nuvens e a Grande Mancha Vermelha, que é uma tempestade gigantesca. Seu tamanho é tão grande que todos os outros planetas do sistema solar caberiam dentro dele.",
+            corDestaque: '#ff9728ff' // Cor do texto/borda para Vênus
+        },
+        'saturno': {
+            nome: "SATURNO",
+            texto: "Saturno é o sexto planeta do sistema solar, conhecido por seus impressionantes anéis, e o segundo maior planeta do sistema, atrás apenas de Júpiter. É um gigante gasoso, composto principalmente de hidrogênio e hélio, sem superfície sólida. Tem o maior número de luas no sistema solar, com mais de 140 satélites naturais conhecidos.",
+            corDestaque: '#ffb668ff' // Cor do texto/borda para Vênus
+        },
+        'urano': {
+            nome: "URANO",
+            texto: "Urano é o sétimo planeta a partir do Sol, um gigante de gelo com o terceiro maior diâmetro do nosso Sistema Solar. É conhecido por sua inclinação axial extrema, que faz com que ele gire de lado, resultando em ciclos de 42 anos de luz e escuridão contínua para cada polo. Sua atmosfera é composta por hidrogênio, hélio e metano, e ele possui 13 anéis e 27 luas conhecidas.",
+            corDestaque: '#68e8ffff' // Cor do texto/borda para Vênus
+        },
+        'netuno': {
+            nome: "NETUNO",
+            texto: "Netuno é o oitavo e último planeta do Sistema Solar, sendo um gigante de gelo caracterizado por sua cor azulada, atmosfera de hidrogênio, hélio e metano, ventos super-rápidos e tempestades violentas. É o quarto maior planeta em tamanho, embora mais massivo que Urano, e sua órbita em torno do Sol leva aproximadamente 164 anos terrestres.",
+            corDestaque: '#005effff' // Cor do texto/borda para Vênus
+        },
+        
         // ** COPIE E COLE PARA OS OUTROS PLANETAS (mude 'terra', 'marte', etc.) **
         // 'terra': { /* ... */ }, 
     };
